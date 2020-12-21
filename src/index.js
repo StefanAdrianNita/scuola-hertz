@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from './components/navbar';
+import Navbar from './components/navbar/navbar';
 
 ReactDOM.render(
     <Navbar />,
