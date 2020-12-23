@@ -1,6 +1,9 @@
 .Navbar{
     border: 1px solid red;
     display: flex;
+    position: relative;
+    height: 100%;
+    flex-direction: row;
 }
 
 .Navbar__logo{
@@ -18,7 +21,12 @@
 .Navbar__button{
     border: 1px solid red;
     position: relative;
-    left: 1430px;
+    /*** Text Vertical Center***/
+    display: inline-block;
+    line-height: 40px;
+    /**************************/
+    left: 90%;
+    margin-right: 5px   ;
 }
 
 
