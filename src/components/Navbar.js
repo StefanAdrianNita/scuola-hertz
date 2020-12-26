@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "../Css/Navbar.css";
 import logo from '../media/logo.png';
 import smallText from '../fonts/RobotoSlab-Light.ttf'
+
 function Navbar (){
         return(
             <div className="Navbar">
