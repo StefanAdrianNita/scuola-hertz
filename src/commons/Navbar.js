@@ -3,6 +3,7 @@ import "../Css/Navbar.css";
 import logo from '../media/logo.png';
 import {Link} from 'react-router-dom';
 
+import smallText from '../fonts/RobotoSlab-Light.ttf'
 
 function Navbar (){
         return(
