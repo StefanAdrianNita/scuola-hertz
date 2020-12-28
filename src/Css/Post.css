@@ -1,0 +1,24 @@
+.Post{
+    border: 1px solid red;
+    background-color: white;
+    position: relative;
+    left: 10%;
+    width: 20%;
+    height: 450px;
+}
+
+
+h1{
+    background-color: #67BD93;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+p{
+    font-family: 'Roboto Slab', serif ;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: right;
+}

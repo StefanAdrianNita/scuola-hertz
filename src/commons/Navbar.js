@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "../Css/Navbar.css";
 import logo from '../media/logo.png';
-import smallText from '../fonts/RobotoSlab-Light.ttf'
+import {Link} from 'react-router-dom';
+
+
 function Navbar (){
         return(
             <div className="Navbar">
@@ -10,8 +12,16 @@ function Navbar (){
 
                 </div>
                 <div className="Navbar__item">
-                    <a href="" className="Navbar__button">Home</a>
-                    <a href="" className="Navbar__button">Contatti</a>
+                    <Link to="/">
+                        <a href="" className="Navbar__button">Home</a>
+                    </Link>
+                    <Link to="/About">
+                        <a href=""className="Navbar__button">About</a>
+                    </Link>
+                    <Link to="/Contact">
+                        <a href="contatti.html" className="Navbar__button">Contatti</a>
+                    </Link>
+                    
                 </div>
                 <div className="Navbar__cta">
                         <a href="" className="cta">Virtual Tour</a>
