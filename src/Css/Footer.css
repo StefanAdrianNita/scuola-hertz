@@ -1,9 +1,29 @@
 .Footer{
-    border: 1px solid red;
-    height: 50px;
+    height: 180px;
     background-color: black;
+    margin-top: 2%;
 }
+.Footer h1{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 40px;}
+.Footer p{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 15px;}
+.Footer a{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 15px;}
 
-.FooterLinks{
-    border: 1px solid red;
+.Info{display: flex;}
+
+.Contact{width: 50%;height: 170px;}
+#Contact{margin-left: 33%;}
+.Contact__mail{display: flex;}
+.mail__prof{margin-left: 10%;margin-right: 5%;}
+
+#Prof{position: relative; left: 25%;margin-bottom: 2%;}
+#Student{position: relative; left: 25%;margin-bottom: 2%;}
+
+
+.Links{
+    width: 50%;
 }
+#Links{margin-left: 30%;}
+.Links a{
+    margin: 2%;
+    color: #67BD93;
+}
+.Links a:hover{text-decoration: none;color: white;}

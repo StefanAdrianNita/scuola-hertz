@@ -20,12 +20,15 @@ function Navbar (){
                         <a href=""className="Navbar__button">About</a>
                     </Link>
                     <Link to="/Contact">
-                        <a href="contatti.html" className="Navbar__button">Contatti</a>
+                        <a href="" className="Navbar__button">Contatti</a>
                     </Link>
                     
                 </div>
                 <div className="Navbar__cta">
+                    <Link to="/VirtualTour">
                         <a href="" className="cta">Virtual Tour</a>
+                    </Link>
+                    
                 </div>
                 <label for="btn-menu" className="btn-responsive">≡</label>
                 <input type="checkbox" id="btn-menu" role="button"></input>
