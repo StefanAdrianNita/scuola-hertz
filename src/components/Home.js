@@ -44,6 +44,7 @@ function Home(){
             </div>
             <br></br>
             <br></br>
+            <br></br>
         <div className="Cards">
             <Cards photo={DeVincenziIMG} text={aboutDevincenzi}></Cards>
             <Cards></Cards>
