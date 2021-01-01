@@ -6,9 +6,11 @@ import {Link} from 'react-router-dom';
 const btn = document.getElementById("btn");
 const nav = document.getElementById("nav");
 
+function showMenu(){
 btn.addEventListener('click' , () => {
     nav.classList.toggle('active')
 })
+}
 
 
 function Navbar (){
