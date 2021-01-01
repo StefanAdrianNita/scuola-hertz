@@ -42,8 +42,7 @@ function Home(){
                     <img src={HomeBG}></img>
                 </div>
             </div>
-            <br></br>
-            <br></br>
+         
         <div className="Cards">
             <Cards photo={DeVincenziIMG} text={aboutDevincenzi}></Cards>
             <Cards></Cards>

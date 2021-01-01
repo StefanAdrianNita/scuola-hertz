@@ -11,3 +11,8 @@
     font-family: 'Roboto Slab', serif;font-size: 100px;
     text-shadow: 2px 2px #67BD93;
 }
+
+.School__section{
+    border:1px solid red;
+    display: flex;
+}
