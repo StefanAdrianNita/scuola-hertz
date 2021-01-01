@@ -46,12 +46,14 @@ function Home(){
             <br></br>
             <br></br>
         <div className="Cards">
-            <Cards photo={DeVincenziIMG} text={aboutDevincenzi}></Cards>
-            <Cards></Cards>
-            <Cards photo={MarongiuIMG}></Cards>
-            <Cards photo={NitaIMG}></Cards>
+            <div className="Cards__card">
+                <Cards photo={DeVincenziIMG} text={aboutDevincenzi}></Cards>
+                <Cards></Cards>
+                <Cards photo={MarongiuIMG}></Cards>
+                <Cards photo={NitaIMG}></Cards>
+            </div>
         </div>
-        </div>
+    </div>
 
         );
     }

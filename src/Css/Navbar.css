@@ -4,7 +4,7 @@
     opacity: 0.9;
     display: flex;
     position: relative;
-    height: 60px;
+    width:100%;height: 60px;
 }
 
 .Navbar__logo{
@@ -23,7 +23,6 @@
 
 .Navbar__item{
     width: 100%;
-    height: 100%;
 }
 
 .Navbar__button{
@@ -33,22 +32,21 @@
     /*** Text Vertical Center***/
     display: inline-block;
     line-height: 350%;
-    /**************************/
-    
-    left: 80%;
     text-align: center;
-    margin-right: 1%;
-    width: 5%;
-    height: 100%;
+    /**************************/
+    left: 80%;
+    width: 5%;height: 60px;;margin-right: 1%;
 }
+
+#Navbar-button-responsive{display: none;}
 
 .Navbar__button:hover{background-color: #67BD93;text-decoration: none;color: black;border-radius: 2% ;}
 
 .Navbar__cta{
-    border-radius: 2%;
-    background-color: #67BD93;  
-    width: 8%;
-    height: 100%;
+    background-color: #67BD93;border-radius: 2%;  
+    position: relative;
+    width: 8%;height: 100%;
+    right: 1%;
 }
 
 .cta{
@@ -72,42 +70,58 @@
 #btn-menu{display: none;}
 
 @media (max-width:800px){
-    
+    .Navbar{max-width: 100%;}
     .Navbar__logo{width: 20%;}
-    
+
+ 
     .Navbar__item{
         border: 1px solid red;
-        position: relative;
-        background-color: #67BD93;
-        top: 200%;
-        height: 500%;
-    }
-    .Navbar__button{
-        /*display: none;*/
-        position: relative;
-        left: 20%;
-        margin-right: 10%;
-        color: royalblue;
-        border:1px solid red;
-        width: 20%;
+        background-color: lightgray;
+        position: absolute;
+        top: 100%;left: 40%;
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        width: 40%;
+        transform: translateX(100%);
+        
     }
 
-    
+    #nav.active{
+        transform: translateX(0);
+    }
+
+    .Navbar__button{
+        border: 1px solid red;
+        color: black;
+        width: 100%;
+        left: 0%;
+    }
+
+    #Navbar-button-responsive{display: inline-block;}
     .Navbar__cta{display: none;}
+    
+    .Navbar-cta-responsive{
+        color: #67BD93;
+        position: relative;
+        left:10%;
+        width: 100%;
+    }
+
+    .Button-responsive{
+        border-radius: 2%;
+        position: relative;
+        width: 20%;
+        left: 20%;
+    }
+
 
     .btn-responsive{
+        border: 1px solid #67BD93;
+        background-color: #67BD93;color: black;
+        width: 100%;height: 60px;
         display: block;
-        border:1px solid red;
-        width: 10%;
-        height: 100%;
-        line-height: 300%;
-        position: relative;
-        left: 5%;
+        font-size: 40px;line-height: 50%;
     }
-
-    #btn-menu{display: none;}
-
-    
 }
-
 

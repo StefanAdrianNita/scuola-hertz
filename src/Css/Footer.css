@@ -9,13 +9,13 @@
 
 .Info{display: flex;}
 
-.Contact{width: 50%;height: 170px;}
-#Contact{margin-left: 33%;}
+.Contact{width: 50%;height: 170px;} /*Container contatti*/
+#Contact{margin-left: 33%;} /*Contact*/
 .Contact__mail{display: flex;}
 .mail__prof{margin-left: 10%;margin-right: 5%;}
 
-#Prof{position: relative; left: 25%;margin-bottom: 2%;}
-#Student{position: relative; left: 25%;margin-bottom: 2%;}
+#Prof{position: relative; left: 25%;margin-bottom: 2%;color: white;}
+#Student{position: relative; left: 25%;margin-bottom: 2%;color: white;}
 
 
 .Links{
@@ -27,3 +27,70 @@
     color: #67BD93;
 }
 .Links a:hover{text-decoration: none;color: white;}
+
+
+@media (max-width:800px){
+
+
+    .Footer{
+        height: 500px;
+    }
+
+    .Info{
+        flex-direction: column;
+
+    }
+    .Contact{
+        display: flex;flex-direction: column;
+        width: 100%;height: 250px;
+
+    }
+
+    #Contact{
+        width: 40%;
+        position: relative;left: 0%;
+    }
+    .Contact__mail{
+        display: flex;flex-direction: column;
+    }
+    
+    
+    #Prof{
+        position: relative;left: 35%;
+        margin-bottom: 0%;
+    }
+
+    .mail__prof p{
+        position: relative;
+        left: 5%;
+    }
+
+    #Student{
+        position: relative;left: 40%;
+        margin-bottom: 0%;
+    }
+    .mail__student p{
+        position: relative;
+        left: 15%;
+
+    }
+   
+    .Links{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height:200px;
+        
+    }
+    
+    #Links{
+        position: relative;width: 30%;
+        left: 5%;margin-bottom: 1%;
+    }
+
+    .Links a{
+        position: relative;
+        left: 25%;
+        width: 40%;
+    }
+}

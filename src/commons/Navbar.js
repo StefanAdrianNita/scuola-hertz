@@ -3,6 +3,12 @@ import "../Css/Navbar.css";
 import logo from '../media/logo.png';
 import {Link} from 'react-router-dom';
 
+const btn = document.getElementById("btn");
+const nav = document.getElementById("nav");
+
+btn.addEventListener('click' , () => {
+    nav.classList.toggle('active')
+})
 
 
 function Navbar (){
@@ -12,7 +18,7 @@ function Navbar (){
                     <img src={logo}></img>
 
                 </div>
-                <div className="Navbar__item">
+                <div className="Navbar__item" id="nav">
                     <Link to="/">
                         <a href="" className="Navbar__button">Home</a>
                     </Link>
@@ -22,6 +28,9 @@ function Navbar (){
                     <Link to="/Contact">
                         <a href="" className="Navbar__button">Contatti</a>
                     </Link>
+                    <Link to="/VirtualTour">
+                        <a href="" className="Navbar__button" id="Navbar-button-responsive">Virtual Tour</a>
+                    </Link>
                     
                 </div>
                 <div className="Navbar__cta">
@@ -30,8 +39,9 @@ function Navbar (){
                     </Link>
                     
                 </div>
-                <label for="btn-menu" className="btn-responsive">≡</label>
-                <input type="checkbox" id="btn-menu" role="button"></input>
+                <div className="Button-responsive">
+                    <button className="btn-responsive" id="btn">≡</button>
+                </div>
             </div>
                 );
 }
