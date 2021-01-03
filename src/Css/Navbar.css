@@ -62,7 +62,7 @@
 
 #btn-menu{display: none;}
 
-@media (max-width:800px){
+@media (min-width:320px){
     .Navbar{
         width: 100%;
         margin: 0%;padding: 0%;

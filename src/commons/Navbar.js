@@ -42,7 +42,7 @@ function Navbar (){
                     
                 </div>
                 <div className="Button-responsive">
-                    <button className="btn-responsive" id="btn">≡</button>
+                    <button className="btn-responsive" id="btn" onClick={showMenu}>≡</button>
                 </div>
             </div>
                 );
