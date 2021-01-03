@@ -29,7 +29,7 @@
 .Links a:hover{text-decoration: none;color: white;}
 
 
-@media (max-width:800px){
+@media (max-width:400px){
 
 
     .Footer{
@@ -48,7 +48,7 @@
 
     #Contact{
         width: 40%;
-        position: relative;left: 0%;
+        position: relative;
     }
     .Contact__mail{
         display: flex;flex-direction: column;
@@ -56,23 +56,22 @@
     
     
     #Prof{
-        position: relative;left: 35%;
+        position: relative;
         margin-bottom: 0%;
     }
 
     .mail__prof p{
         position: relative;
-        left: 5%;
+        
     }
 
     #Student{
-        position: relative;left: 40%;
+        position: relative;
         margin-bottom: 0%;
     }
     .mail__student p{
         position: relative;
-        left: 15%;
-
+        
     }
    
     .Links{
@@ -85,12 +84,11 @@
     
     #Links{
         position: relative;width: 30%;
-        left: 5%;margin-bottom: 1%;
+        margin-bottom: 1%;
     }
 
     .Links a{
         position: relative;
-        left: 25%;
         width: 40%;
     }
 }

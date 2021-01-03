@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: max-content;
+    width: 100%;
 }
 
 .Header{
@@ -50,11 +51,16 @@
 
 
 
-@media (max-width:800px){
+@media (max-width:400px){
+    .Home{
+        margin: 0%;padding: 0%;
+        width: 100%;
+    }
     .Header{
+        margin: 0%;padding: 0%;
         margin-top: 1%;
         border: 1px solid red;
-        width: 100%;
+        width: 50%;
         height: 500px;
         flex-direction: column;
     }
@@ -64,7 +70,7 @@
     }
 
     .Header__post h1{text-shadow: 1px 1px white;font-size: 50px;}
-    .Header__post p{position: relative;left: 5%;font-size: 20px;}
+    .Header__post p{position: relative;font-size: 20px;}
     
     .Header__colored{
         border:1px solid red;
@@ -87,7 +93,7 @@
 
     .post__button{
         width: 50%;
-        left: 60%;top: 90%;
+        top: 90%;
     }
     .Cards{
         border: 1px solid red;
