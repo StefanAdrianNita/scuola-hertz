@@ -11,7 +11,7 @@
 .About{font-family: 'Roboto Slab', serif ;color:black;text-justify: auto;font-weight: 20;}
 
 
-@media (max-width:400px){
+@media (max-width:800px){
 
     .Container{
         position: relative;

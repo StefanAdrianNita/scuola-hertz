@@ -21,14 +21,14 @@ function Navbar (){
 
                 </div>
                 <div className="Navbar__item" id="nav">
-                    <Link to="/">
-                        <a href="" className="Navbar__button">Home</a>
+                    <Link to="/Contact">
+                        <a href="" className="Navbar__button">Contact</a>
                     </Link>
                     <Link to="/About">
                         <a href=""className="Navbar__button">About</a>
                     </Link>
-                    <Link to="/Contact">
-                        <a href="" className="Navbar__button">Contatti</a>
+                    <Link to="/">
+                        <a href="" className="Navbar__button">Home</a>
                     </Link>
                     <Link to="/VirtualTour">
                         <a href="" className="Navbar__button" id="Navbar-button-responsive">Virtual Tour</a>
