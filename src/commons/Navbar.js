@@ -9,7 +9,7 @@ const btn = document.getElementById("btn");
 const nav = document.getElementById("nav");
 
 function showMenu(){
-btn.addEventListener('click' , () => {
+btn.addEventListener('click' , (error,nav) => {
     nav.classList.toggle('active')
 })
 }
