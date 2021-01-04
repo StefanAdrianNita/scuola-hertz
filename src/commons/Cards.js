@@ -6,7 +6,13 @@ function Cards(props){
             <div className="Photo">
                 <img src={props.photo}></img>
             </div>
-          <p className="About">{props.text}</p>
+            <div className="Credentials">
+                <h1 className="Name">{props.name}</h1>
+                <h1 className="Name">{props.surname}</h1>
+            </div>
+            <div className="Description">
+                <p>{props.text}</p>
+            </div>
         </div>
 
     );

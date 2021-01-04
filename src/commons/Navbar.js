@@ -1,7 +1,9 @@
 import React from 'react';
 import "../Css/Navbar.css";
-import logo from '../media/logo.png';
+import logo from '../media/Logo.png';
 import {Link} from 'react-router-dom';
+
+import Button from '../commons/Button';
 
 const btn = document.getElementById("btn");
 const nav = document.getElementById("nav");
@@ -21,23 +23,24 @@ function Navbar (){
 
                 </div>
                 <div className="Navbar__item" id="nav">
-                    <Link to="/Contact">
-                        <a href="" className="Navbar__button">Contact</a>
-                    </Link>
-                    <Link to="/About">
-                        <a href=""className="Navbar__button">About</a>
-                    </Link>
-                    <Link to="/">
-                        <a href="" className="Navbar__button">Home</a>
-                    </Link>
-                    <Link to="/VirtualTour">
-                        <a href="" className="Navbar__button" id="Navbar-button-responsive">Virtual Tour</a>
-                    </Link>
-                    
+                    <ul className="Navbar__menu">
+                        <Link to="/Contact">
+                            <li  className="menu__button">Contact</li>
+                        </Link>
+                        <Link to="/About">
+                            <li className="menu__button">About</li>
+                        </Link>
+                        <Link to="/">
+                            <li className="menu__button">Home</li>
+                        </Link>
+                        <Link to="/VirtualTour">
+                            <li className="menu__button" id="Navbar-button-responsive">Virtual Tour</li>
+                        </Link>
+                    </ul>  
                 </div>
                 <div className="Navbar__cta">
                     <Link to="/VirtualTour">
-                        <a href="" className="cta">Virtual Tour</a>
+                        <a href=""className="cta">Virtual Tour</a>
                     </Link>
                     
                 </div>

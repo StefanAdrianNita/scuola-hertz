@@ -29,22 +29,19 @@
 .Links a:hover{text-decoration: none;color: white;}
 
 
-@media (min-width:320px){
-
-
-    .Footer{
-        height: 500px;
-    }
-
+@media (max-width:480px){
+    .Footer{height: 500px;}
     .Info{flex-direction: column;}
     .Contact{
         border: 1px solid red;
         display: flex;flex-direction: column;
         width: 100%;height: 300px;
+        
     }
 
     #Contact{
-        width: 40%;text-align: center;
+        border: 1px solid red;
+        width: 40%;align-content: center;
     }
     .Contact__mail{
         border:1px solid red;
@@ -58,18 +55,17 @@
    
     .Links{
         border: 1px solid red;
-        display: flex;
-        flex-direction: column;
-        width:100%;
-        height:200px;
-        align-items: center;
+        display: flex;flex-direction: column;
+        width:100%;height:200px;
+        align-items:center;
         
     }
     
     #Links{
-
-
-        border: 1px solid red;width: 30%;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        text-align: center;
         
     }
 

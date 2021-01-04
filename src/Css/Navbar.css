@@ -1,59 +1,45 @@
-.Navbar{
-    font-family:'Roboto Slab', serif;
-    background-color: black;
-    opacity: 0.9;
-    display: flex;
-    width:100%;height: 60px;
+.Navbar{font-family:'Roboto Slab', serif;background-color: black;opacity: 0.9;display: flex;max-width:100%;height: 60px;
 }
 
-.Navbar__logo{width: 5%;}
+.Navbar__logo{width: 10%;}
 
-.Navbar__logo img{
-    position: relative;
-    width: 90%;height: 90%;
-    top: 5%;
-    opacity: 0.8;
-}
+.Navbar__logo img{width: 100%;}
 
-.Navbar__item{
-    width: 100%;;
-    margin-right: 1%;
-}
+.Navbar__item{width: 100%;margin-right: 1%;}
 
-.Navbar__button{
+
+
+.menu__button{
     color: #67BD93;
-    width: 5%;
-    /*** Text Vertical Center***/
-    line-height: 350%;
-    text-align: center;
-    /**************************/
-    float: right;
-    margin-right:2%;
+    display: flex;align-items: center;justify-content: center;
+    width: 5%;height: 35px;float: right;margin-right:2%;
+    position: relative;margin-top: 0.9%;
+    list-style: none;
+    
 }
+.menu__button:hover{background-color: #67BD93;text-decoration: none;color: black;border-radius: 3% ;}
 
 #Navbar-button-responsive{display: none;}
 
-.Navbar__button:hover{background-color: #67BD93;text-decoration: none;color: black;border-radius: 2% ;}
 
 .Navbar__cta{
-    background-color: #67BD93;border-radius: 2%;  
-    position: relative;
+    display: flex;align-items: center;justify-content: center;
+    border-radius: 2%;  
+    position: relative;right: 1%;
     width: 8%;
-    right: 1%;
-    text-align: center;
+    
 }
 
 .cta{
+    margin: 0%;padding: 0%;
+    background-color: #67BD93;border: 2px solid #67BD93;border-radius: 3%;
     color: black;
-    position: relative;
-    justify-content: center;
-    /*****Text Align*****/
-        line-height: 355%;
-    /********************/
+    text-align: center;
     text-decoration: none;    
+    ;height: 100px;
 }
 
-.cta:hover{text-decoration: none;color: white;}
+.cta:hover{text-decoration: none;background-color: white;border: white;color: black;}
 
 .btn-responsive{
     display: none;
@@ -62,7 +48,7 @@
 
 #btn-menu{display: none;}
 
-@media (min-width:320px){
+@media (max-width:480px){
     .Navbar{
         width: 100%;
         margin: 0%;padding: 0%;
@@ -87,7 +73,7 @@
         transform: translateX(0);
     }
 
-    .Navbar__button{
+    .menu__button{
         border: 1px solid red;
         color: black;
         width: 100%;

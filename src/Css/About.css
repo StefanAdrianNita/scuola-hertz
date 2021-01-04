@@ -1,6 +1,8 @@
-.Header{border:1px solid red;width: 100%;height: 600px;}
 
-.Header__Image{border: 1px solid red;width: 100%;height: 600px;}
+.About{font-family: 'Roboto Slab', serif;}
+.Header{width: 100%;height: 600px;}
+
+.Header__Image{width: 100%;height: 600px;}
 
 .Header__Image img{width: 100%;height: 600px;}
 
@@ -11,3 +13,50 @@
     font-family: 'Roboto Slab', serif;font-size: 100px;
     text-shadow: 2px 2px #67BD93;
 }
+
+
+.School__section{
+    display: flex;
+    width: 100%; 
+    height: 300px;;
+}
+
+.School__info{
+    width: 75%;
+    padding: 1%;
+    height: 300px;
+
+}
+.School__info p{
+    position: relative;top: 15%;
+    background-color:white;box-shadow: 1px 1px 5px 5px black;
+    font-family: 'Roboto Slab', serif;color: black;font-size:20px;
+    
+}
+
+.School__image{width: 25%;}
+
+.School__image img{
+    padding: 2%;
+    width: 100%;
+    height: 300px;
+}
+
+
+.Teacher__section{
+    border: 1px solid red;
+    height: 300px;
+    background-color: white;
+}
+
+.Teacher{
+    border:1px solid red;
+    padding: 5%;
+    height: 200px
+}
+
+.Teacher__section p{
+    font-family: 'Roboto Slab', serif;
+}
+
+
