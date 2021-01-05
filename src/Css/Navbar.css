@@ -1,3 +1,6 @@
+*:link{text-decoration: none;}
+
+
 .Navbar{font-family:'Roboto Slab', serif;background-color: black;opacity: 0.9;display: flex;max-width:100%;height: 60px;
 }
 
@@ -11,42 +14,37 @@
 
 .menu__button{
     color: #67BD93;
-    display: flex;align-items: center;justify-content: center;
-    width: 5%;height: 35px;float: right;margin-right:2%;
+    display: inline-block;text-align: center;line-height: 200%;
+    width: 5%;height: 35px;float: right ;margin-right:2%;   
     position: relative;margin-top: 0.9%;
     list-style: none;
-    
+    transition:0.2s linear;
 }
-.menu__button:hover{background-color: #67BD93;text-decoration: none;color: black;border-radius: 3% ;}
-
+.menu__button:hover{background-color: #67BD93;text-decoration: none;color: black;border-radius: 3%;transform: translateY(-5%);}
 #Navbar-button-responsive{display: none;}
 
 
+
 .Navbar__cta{
-    display: flex;align-items: center;justify-content: center;
-    border-radius: 2%;  
-    position: relative;right: 1%;
-    width: 8%;
+    position: relative;top:15%;right: 1%;width: 10%;height: 40px;
+
+    list-style: none;text-decoration: none;
+    text-align: center;line-height: 250%;
     
+    border-radius: 2%;  
+    }
+
+.Navbar__cta a{
+    background-color: #67BD93;color: black;border-radius: 3%;
+    display: block;height: 40px;
+    transition: 0.2s linear;
 }
+.Navbar__cta a:hover{text-decoration: none;background-color: white;color: black;transform:translateY(-3%);}
 
-.cta{
-    margin: 0%;padding: 0%;
-    background-color: #67BD93;border: 2px solid #67BD93;border-radius: 3%;
-    color: black;
-    text-align: center;
-    text-decoration: none;    
-    ;height: 100px;
-}
 
-.cta:hover{text-decoration: none;background-color: white;border: white;color: black;}
+#Navbar-button-responsive{display: none;}
+.Button-responsive{display: none;}
 
-.btn-responsive{
-    display: none;
-    color: white;
-}
-
-#btn-menu{display: none;}
 
 @media (max-width:480px){
     .Navbar{
@@ -57,21 +55,15 @@
 
  
     .Navbar__item{
-        border: 1px solid red;
-        background-color: lightgray;
-        position: absolute;
-        top: 100%;
-        display: none;
-        flex-direction: column;
-        height: 240px;
-        width: 40%;
-        transform: translateX(100%);
-        
+       
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+
+        position: relative;
+        top: 20%;
     }
 
-    #nav.active{
-        transform: translateX(0);
-    }
 
     .menu__button{
         border: 1px solid red;
@@ -80,28 +72,21 @@
         left: 0%;
     }
 
-    #Navbar-button-responsive{display: inline-block;}
     .Navbar__cta{display: none;}
     
-    .Navbar-cta-responsive{
-        color: #67BD93;
-        position: relative;
-        
-        width: 100%;
-    }
+
 
     .Button-responsive{
+        border: 1px solid red;
         border-radius: 2%;
-        position: absolute;left: 80%;top:-0.5%;
-        width: 20%;
+        position: absolute;right: 2%;
+        display: flex;align-items: center;justify-content: center;
+        width: 20%; 
     }
 
-
-    .btn-responsive{
-        background: none;border:none;color: white;
-        width: 100%;height: 60px;padding: 0;margin: 0;
-        display: flex;align-items: center;justify-content: center;
-        font-size: 30px;
+    #check{display: none;}
+    .Checkbtn{
+        font-size:30px;color: white;cursor: pointer;
     }
 }
 

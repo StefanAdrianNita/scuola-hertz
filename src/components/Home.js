@@ -9,7 +9,6 @@ import IMG1Slider from '../media/(Slider)1.jpg';
 import IMG2Slider from '../media/(Slider)2.jpg';
 
 /***************Header ***************/
-import HomeBGColored from '../media/HomeBGColored.jpg';
 import HomeBG from '../media/HomeBG.jpg';
 /*************************************/
 
@@ -39,11 +38,10 @@ function Home(){
                         <p>{post}</p>
                         <div className="post__button">
                         <Link to="/VirtualTour">
-                            <Button text={postLink}></Button>
+                            <Button text={postLink} ></Button>
                         </Link>
                         </div>
                     </div>
-                    <img src={HomeBGColored}></img>
                 </div>
                 <div className="Header__photo">
                     <img src={HomeBG}></img>
