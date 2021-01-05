@@ -51,7 +51,7 @@
 @media (max-width:480px){
     .Home{width: 100%;}
     
-    .Header{max-width: 100%;flex-direction: column;}
+    .Header{width: 100%;flex-direction: column;}
 
     .Header__post{text-align: center;top: 5%;}
 
