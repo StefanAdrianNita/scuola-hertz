@@ -37,7 +37,7 @@
 .Navbar__cta a{
     background-color: #67BD93;color: black;border-radius: 3%;
     display: block;height: 40px;
-    transition: 0.2s linear;
+    transition: 0.1s linear;
 }
 .Navbar__cta a:hover{text-decoration: none;background-color: white;color: black;transform:translateY(-3%);}
 
@@ -67,7 +67,7 @@
 
     .menu__button{
         border: 1px solid red;
-        color: black;
+        color: black;position: relative;
         width: 100%;
         left: 0%;
     }

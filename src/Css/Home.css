@@ -65,7 +65,7 @@
     .Header__photo{width: 100%;height: 300px;}
     .Header__photo img{height: 300px;}
 
-    .post__button{left: 25%;width: 50%;top: 115%;}
+    .post__button{left: 25%;width: 50%;top: 0%;}
     
     .Cards{
         border: 1px solid red;
