@@ -4,6 +4,12 @@ import logo from '../media/Logo.png';
 import {Link} from 'react-router-dom';
 
 
+function onClickMenu(){
+    if(document.getElementById("menu").style.display == "block")
+        document.getElementById("menu").style.display ="none";
+    else
+        document.getElementById("menu").style.display ="block";
+}
 
 
 function Navbar (){
@@ -25,21 +31,32 @@ function Navbar (){
                         <Link to="/">
                             <li className="menu__button">Home</li>
                         </Link>
-                        <Link to="/VirtualTour">
-                            <li className="menu__button" id="Navbar-button-responsive">Virtual Tour</li>
-                        </Link>
                     </ul>  
                 </div>
                 <div className="Navbar__cta">
                     <Link to="/VirtualTour">
                         <a href=""className="cta">Virtual Tour</a>
                     </Link>
-                    
                 </div>
-                <div className="Button-responsive">
-                    <input type="checkbox" name="" value="" id="check"></input>
-                    <label for="check" className="Checkbtn">≡</label>
+                <div className="menu-responsive"  onClick={onClickMenu}>≡</div>
+                <div className="menu" id="menu">
+                    <ul>
+                        <Link to="/">
+                            <li>Home</li>
+                        </Link>
+                        <Link to="/About">
+                            <li>About us</li>
+                        </Link>
+                        <Link to="/Contact">
+                            <li>Contact us</li>
+                        </Link>
+                        <Link to="/VirtualTour">
+                            <li>Virtual Tour</li>
+                        </Link>
+                    </ul>
                 </div>
+                
+            
             </div>
                 );
 }

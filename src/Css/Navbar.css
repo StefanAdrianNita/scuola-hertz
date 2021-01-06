@@ -21,15 +21,9 @@
     transition:0.2s linear;
 }
 .menu__button:hover{background-color: #67BD93;text-decoration: none;color: black;border-radius: 3%;transform: translateY(-5%);}
-#Navbar-button-responsive{display: none;}
 
 
-
-.Navbar__cta{
-    position: relative;top:15%;right: 1%;width: 10%;height: 40px;
-
-    list-style: none;text-decoration: none;
-    text-align: center;line-height: 250%;
+.Navbar__cta{position: relative;top:15%;right: 1%;width: 10%;height: 40px;list-style: none;text-decoration: none;text-align: center;line-height: 250%;
     
     border-radius: 2%;  
     }
@@ -41,28 +35,21 @@
 }
 .Navbar__cta a:hover{text-decoration: none;background-color: white;color: black;transform:translateY(-3%);}
 
-
-#Navbar-button-responsive{display: none;}
-.Button-responsive{display: none;}
+.menu-responsive{display: none;}
 
 
 @media (max-width:480px){
-    .Navbar{
-        width: 100%;
-        margin: 0%;padding: 0%;
+    .Navbar{width: 100%;
+        position: fixed;top: 0%;
+        z-index: 1;opacity: 1;
     }
-    .Navbar__logo{width: 30%;}
+    
+    .Navbar__logo{position: fixed;width: 30%;}
+    .Navbar__logo img{width: 100%;height: 50px;}
 
- 
-    .Navbar__item{
-       
-        width: 100%;
-        height: 100%;
-        z-index: 2;
 
-        position: relative;
-        top: 20%;
-    }
+    .menu:hover{cursor: pointer;}
+    .Navbar__item{display: none;}
 
 
     .menu__button{
@@ -74,19 +61,29 @@
 
     .Navbar__cta{display: none;}
     
+    .menu-responsive{
+        display: block;
+        color: white;position:fixed;width: 20%;left: 80%;
+        font-size: 35px;text-align: center;line-height: 150%;
 
-
-    .Button-responsive{
-        border: 1px solid red;
-        border-radius: 2%;
-        position: absolute;right: 2%;
-        display: flex;align-items: center;justify-content: center;
-        width: 20%; 
     }
 
-    #check{display: none;}
-    .Checkbtn{
-        font-size:30px;color: white;cursor: pointer;
+    .menu{
+        border: 1px solid black;
+        background-color: #67BD93;opacity: 0.8;;display: none;
+        width: 100%;height: 50vh;
+        position: relative;top: 100%;
     }
+
+    .menu li{
+        color:black;opacity: 1;
+        text-align: center;
+        margin: 10% 10%;
+        list-style: none;
+    }
+
+    .menu li:hover{color:white;text-decoration: none;}
+
+
 }
 

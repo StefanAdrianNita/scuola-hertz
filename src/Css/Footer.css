@@ -11,7 +11,7 @@
 
 .Contact{width: 50%;height: 170px;} /*Container contatti*/
 
-#Contact{margin-left: 33%;} /*Contact h1*/
+#Contact{margin-left: 37%;} /*Contact h1*/
 
 .Contact__mail{display: flex; }
  .mail__prof{margin-left: 10%;margin-right: 10%; }
@@ -34,20 +34,11 @@
 @media (max-width:480px){
     .Footer{height: 500px;}
     .Info{flex-direction: column;}
-    .Contact{
-        border: 1px solid red;
-        display: flex;flex-direction: column;
-        width: 100%;height: 300px;
-        
-    }
+    .Contact{display: flex;flex-direction: column;width: 100%;height: 300px;}
 
-    #Contact{
-        border: 1px solid red;
-        width: 40%;align-content: center;
-    }
-    .Contact__mail{
-        border:1px solid red;
-        display: flex;flex-direction: column;}
+    #Contact{width: 50%;margin-left:28% ;}
+    
+    .Contact__mail{display: flex;flex-direction: column;}
     
     #Prof{text-align: center;}
       .mail__prof p{text-align: center;}
@@ -55,24 +46,9 @@
     #Student{text-align: center;}
       .mail__student p{text-align: center;}
    
-    .Links{
-        border: 1px solid red;
-        display: flex;flex-direction: column;
-        width:100%;height:200px;
-        align-items:center;
-        
-    }
     
-    #Links{
-        border: 1px solid red;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        
-    }
-
-    .Links a{
-        text-align: center;
-        width: 40%;
-    }
+    
+    .Links{display: flex;flex-direction: column;width:100%;height:200px;align-items:center;}
+    #Links{margin-left: 2%;}
+    .Links a{width: 40%;text-align: center;}
 }

@@ -31,7 +31,7 @@ function Home(){
     const aboutDevincenzi="Professore di Informatica ed esperto Musicale, insegnante da .. anni nell'istituto H.Hertz"
     return(
         <div className="Home">
-            <div className="Header">
+            <div className="Header__home">
                 <div className="Header__colored">
                     <div className="Header__post">
                         <h1>{postTitle}</h1>
