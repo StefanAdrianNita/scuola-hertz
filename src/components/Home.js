@@ -54,7 +54,7 @@ function Home(){
                 <div className="Cards__card">
                     <Cards photo={Avatar} name="Francesco" surname="Devincenzi" text={aboutDevincenzi}></Cards>
                     <Cards photo={Avatar} name="Marco" surname="DeLuca"></Cards>
-                    <Cards photo={Avatar} name="Manuel" surname="Marongiu" text="Hello"></Cards>
+                    <Cards photo={Avatar} name="Manuel" surname="Marongiu" text=""></Cards>
                     <Cards photo={Avatar} name="Adrian" surname ="Nita" text=""></Cards>
                 </div>
             </div>
