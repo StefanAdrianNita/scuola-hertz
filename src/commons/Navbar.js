@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Css/Navbar.css";
-import logo from '../media/logo.png';
+import logo from '../media/Logo.png';
 import {Link} from 'react-router-dom';
 
 
@@ -9,6 +9,8 @@ function onClickMenu(){
         document.getElementById("menu").style.display ="none";
     else
         document.getElementById("menu").style.display ="block";
+
+
 }
 
 

@@ -29,9 +29,9 @@ function Footer(){
                 <div className="Links">
                     <h1 id="Links">Links</h1>
                     <Link to="/"><a href="">Homepage</a></Link>
-                    <Link to="../components/About"><a href="">More about us</a></Link>
-                    <Link to="../components/Contact"><a href="">Contact us</a></Link>
-                    <Link to="../components/VirtualTour"><a href="">Try Virtual Tour</a></Link>
+                    <Link to="/About"><a href="">More about us</a></Link>
+                    <Link to="/Contact"><a href="">Contact us</a></Link>
+                    <Link to="/VirtualTour"><a href="">Try Virtual Tour</a></Link>
                 </div>
             </div>
             <div className="copyright">

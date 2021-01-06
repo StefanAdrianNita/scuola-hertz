@@ -1,6 +1,6 @@
 
 .About{font-family: 'Roboto Slab', serif;}
-.Header{width: 100%;height: 600px;}
+.Header__About{width: 100%;height: 600px;}
 
 .Header__Image{width: 100%;height: 600px;}
 
@@ -60,4 +60,14 @@
     font-family: 'Roboto Slab', serif;
 }
 
+@media (max-width:768px){
 
+    .Header__About{
+        width: 100%;}
+
+    .Header__Image img{width: 100%;}
+
+    .Image__content {left: 2.5%;top: 20%;font-size: 70px;}
+
+    .School__section{height: 100vh;}
+}
