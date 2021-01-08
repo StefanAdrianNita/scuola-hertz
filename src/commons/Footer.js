@@ -10,7 +10,7 @@ function Footer(){
     return(
         <footer className="Footer">
             <div className="Info">
-                <div className="Contact">
+                <div className="Contact__section">
                     <h1 id="Contact"> Contact</h1>
                     <div className="Contact__mail">
                         <div className="mail__prof">
@@ -33,9 +33,6 @@ function Footer(){
                     <Link to="/Contact"><a href="">Contact us</a></Link>
                     <Link to="/VirtualTour"><a href="">Try Virtual Tour</a></Link>
                 </div>
-            </div>
-            <div className="copyright">
-
             </div>
         </footer>
     );

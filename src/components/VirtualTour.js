@@ -1,8 +1,11 @@
 import React from 'react';
+import MailForm from '../commons/MailForm.js';
+
+
 function VirtualTour(){
     return(
        <div className="VirtualTour">
-           <iframe src=""></iframe>
+       
      </div>
     );
 }

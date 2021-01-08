@@ -1,5 +1,5 @@
 
-.About{font-family: 'Roboto Slab', serif;}
+.About{font-family: 'Roboto Slab', serif; width: 100%;}
 .Header__About{width: 100%;height: 600px;}
 
 .Header__Image{width: 100%;height: 600px;}
@@ -16,42 +16,66 @@
 
 
 .School__section{
-    border: 1px solid red;
     display: flex;
     width: 100%; 
-    height: 300px;;
+    height: 400px;;
 }
 
 .School__info{
-    width: 75%;
-    padding: 1%;
-    height: 300px;
+    width: 60%;
+    height: 400px;
+    margin: 0px 15px;
+    background-color:#67BD93;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 
 }
 .School__info p{
-    position: relative;top: 15%;
-    background-color:white;box-shadow: 1px 1px 5px 5px black;
-    font-family: 'Roboto Slab', serif;color: black;font-size:20px;
+    position: relative;top: 15%; 
+    margin: 15px 20px;text-align: justify;
+    font-size:20px;
+    text-shadow: 1px 1px white;
     
 }
 
-.School__image{width: 25%;}
+.School__image{width: 40%;}
 
 .School__image img{
-    padding: 2%;
     width: 100%;
-    height: 300px;
+    height: 400px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 
+.Project__section{
+    height: 300px;}
+
+.Project__info{
+    margin: 10px 50px;
+    background-color: #67BD93;box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    height: 250px;
+}
+
+.Project__section h1{
+    position: relative; top: 5%;text-align: center;text-shadow: 1px 1px white;
+}
+
+.Project__section p{
+    position: relative;text-align: justify;margin: 30px 100px;font-size: 20px;text-shadow: 1px 1px white;
+}
+
+.vt-button{
+    width: 10%;position: relative;top: -15%;left: 65%;transition: 0.1s linear;
+}
+
+.vt-button:hover{transform: translateY(-10%);}
+
 .Teacher__section{
-    border: 1px solid red;
     height: 300px;
-    background-color: white;
+    background-color: #67BD93;
 }
 
 .Teacher{
-    border:1px solid red;
     padding: 5%;
     height: 200px
 }

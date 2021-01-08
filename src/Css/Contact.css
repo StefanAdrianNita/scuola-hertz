@@ -1,1 +1,57 @@
-h1{font-family: 'Roboto Slab', serif;}
+.Contact{width: 100%;font-family: 'Roboto slab',serif;;}
+
+.Header__Contact{
+    width:100%;height: 600px;
+}
+
+.Header-Contact__post h1{
+    color: white;text-shadow: 2px 2px #67BD93;
+    position: absolute;
+    left: 35%;top: 30%;font-size: 100px;
+
+}
+
+
+.Header__Contact img{width: 100%;height: 600px;}
+
+
+.Module__container{
+    height:500px;
+    display: flex;
+
+}
+
+.Contact__container{width: 30%;}
+
+.contact{background-color: #67BD93;border-radius: 2%;text-shadow: 1px 1px white;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin: 25px 15px;height: 450px;display: flex;justify-content: center;align-items: center;
+}
+
+.contact li{
+    list-style: none;font-size: 20px;
+}
+
+
+.Mail__form{width: 70%;height: 500px;border-radius: 3%;margin-right: 15px;}
+
+.Map__container{display: flex;height: 400px;width: 100%;text-shadow: 1px 1px white;}
+.Map__container h1{position: absolute; margin-top: -12%;margin-left: -25%;}
+.Map__post{width:50%;height: 400px;display: flex;}
+
+.post{
+    background-color: #67BD93;border-radius: 5%;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    width: 100%;display: flex;justify-content: center;align-items: center;margin: 5px 5px;
+}
+
+.post p{
+    
+    font-family: 'Roboto slab',serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 15px 15px;
+}
+
+.Map{
+    width: 50%;    margin-right: 10px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}

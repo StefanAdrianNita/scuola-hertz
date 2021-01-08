@@ -7,8 +7,8 @@ function Cards(props){
                 <img src={props.photo}></img>
             </div>
             <div className="Credentials">
-                <h1 className="Name">{props.name}</h1>
-                <h1 className="Name">{props.surname}</h1>
+                <h1 className="Named">{props.name}</h1>
+                <h1 className="Named">{props.surname}</h1>
             </div>
             <div className="Description">
                 <p>{props.text}</p>

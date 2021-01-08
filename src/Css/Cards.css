@@ -18,7 +18,7 @@
 }
 .Photo img{width: 50%;height:110px;margin-bottom: 2%;border-radius: 50%;}
 
-.Name{text-align: center;font-family: 'Roboto slab', serif; margin:5%;}
+.Named{text-align: center;font-family: 'Roboto slab', serif; margin:5%;}
 
 .Description{color:black;background-color: white;font-family: 'Roboto slab', serif;text-align: left;margin: 10%;}
 
