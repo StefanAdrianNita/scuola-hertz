@@ -14,13 +14,13 @@ function MailForm(){
                 <div className="mail">
                     <form>
                         <div className="Name">
-                            <input type="email" className="Form__field" placeholder="Nome"></input>
+                            <input type="text" className="Form__field" placeholder="Nome"></input>
                         </div>
                         <div className="Surname">
                             <input type="text" className="Form__field" placeholder="Cognome"></input>
                         </div>
                         <div className="Email">
-                            <input type="text" className="Form__field" placeholder="E-mail"></input>
+                            <input type="email" className="Form__field" placeholder="E-mail"></input>
                         </div>
                         <div className="Object">
                             <input type="Text" className="Form__field" placeholder="Oggetto"></input>

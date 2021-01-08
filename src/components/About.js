@@ -37,7 +37,9 @@ function About(){
                     <h1>Il Progetto Virtual Tour</h1>
                     <p>{ProjectInfo}</p>
                     <div className="vt-button">
-                        <Button text="Try Virtual Tour"></Button>
+                        <Link to="/VirtualTour">
+                            <Button text="Try Virtual Tour"></Button>
+                        </Link>
                     </div>
                 </div>
             </div>

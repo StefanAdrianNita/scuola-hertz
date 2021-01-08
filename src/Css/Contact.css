@@ -8,7 +8,7 @@
     color: white;text-shadow: 2px 2px #67BD93;
     position: absolute;
     left: 35%;top: 30%;font-size: 100px;
-
+    animation: fadeIn 3s;
 }
 
 
@@ -55,3 +55,9 @@
     width: 50%;    margin-right: 10px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 
 }
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
