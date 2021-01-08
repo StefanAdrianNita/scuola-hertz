@@ -49,7 +49,7 @@ function About(){
                     <h1>I nostri Insegnanti</h1>
                     <p>{TeacherInfo}</p>
                     <div className="teacher-btn">
-                        <Link>
+                        <Link to="/Teacher">
                             <Button text="I nostri Professori"></Button>
                         </Link>
                     </div>
