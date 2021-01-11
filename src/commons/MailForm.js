@@ -32,7 +32,7 @@ function MailForm(){
                             <input type="submit" className="Form__field" id="Submit" value ="Invia"></input>
                         </div>
                     </form>
-                    </div>
+                </div>
             </div>
         </div>
     );

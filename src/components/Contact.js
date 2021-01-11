@@ -50,16 +50,14 @@ function Contact(){
             <br></br>
             <div className="Map__container">
                 <div className="Map__post">
-                    
-                    <div className="post">
                     <h1>Come Raggiungerci</h1>
+                    <div className="post">
                         <p>{MapInfo}</p>
                     </div>
                 </div>
                 <div className="Map">
                     <Map></Map>
                 </div>
-                
             </div>  
         </div>
     );

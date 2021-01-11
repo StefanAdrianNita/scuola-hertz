@@ -1,54 +1,56 @@
-.Footer{
-    height: 180px;
-    background-color: black;opacity: 0.9;margin-top: 2%;
-
-}
-.Footer h1{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 40px;}
-.Footer p{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 15px;}
-.Footer a{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 15px;}
-
-.Info{display: flex; }
-
-.Contact__section{width: 50%;height: 170px;} /*Container contatti*/
-
-#Contact{margin-left: 37%;} /*Contact h1*/
-
-.Contact__mail{display: flex; }
- .mail__prof{margin-left: 10%;margin-right: 10%; }
-   #Prof{text-align: center; margin-bottom: 2%;color: white;}
- .mail__student{margin-right:5%; }
-   #Student{text-align: center;position: relative;margin-bottom: 2%;color: white;}
-
-   
-.Links{
-    width: 50%;
-}
-
-#Links{margin-left: 30%; } /*Link H1*/
+.Footer{background-color: black;opacity: 0.9;height: 180px;margin-top: 2%;}
+  .Footer h1{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 40px;}
+  .Footer p{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 15px;}
+  .Footer a{font-family: 'Roboto Slab', serif; color: #67BD93; font-size: 15px;}
+  .Info{display: flex; }
+    .Contact__section{width: 50%;height: 170px;} /*Container contatti*/
+      #Contact{margin-left: 37%;} /*Contact h1*/
+      .Contact__mail{display: flex; }
+        .mail__prof{margin-left: 10%;margin-right: 10%; }
+          #Prof{text-align: center; margin-bottom: 2%;color: white;}
+        .mail__student{margin-right:5%; }
+          #Student{text-align: center;position: relative;margin-bottom: 2%;color: white;}
+    .Links{width: 50%;}
+      #Links{margin-left: 30%; } /*Link H1*/
+      .Links a{color: #67BD93;margin: 2%;}
+      .Links a:hover{text-decoration: none;color: white;}
 
 
-.Links a{color: #67BD93;margin: 2%;}
-.Links a:hover{text-decoration: none;color: white;}
-
-
-@media (max-width:480px){
-    .Footer{height: 500px;}
-    .Info{flex-direction: column;}
-    .Contact__section{width: 100%;height: 300px;}
-
-    #Contact{width: 50%;margin-left:28% ;}
+/********** Smartphone w MaxWidth => 368px (Huawei) **********/
+@media (min-width:300px) and (max-width:368px){
     
-    .Contact__mail{display: flex;flex-direction: column;}
+  .Footer{height: 500px;}
+    .Info{flex-direction: column;}
+    
+    .Contact__section{width: 100%;height: 300px;}
+      #Contact{width: 50%;margin-left:28% ;}
+        .Contact__mail{display: flex;flex-direction: column;}
     
     #Prof{text-align: center;}
       .mail__prof p{text-align: center;}
 
     #Student{text-align: center;}
       .mail__student p{text-align: center;}
-   
-    
     
     .Links{display: flex;flex-direction: column;width:100%;height:200px;align-items:center;}
+      #Links{margin-left: 2%;}
+        .Links a{width: 40%;text-align: center;}
+}
+
+/********** Smartphone w MaxWidth => 768px (Iphone) **********/
+@media (min-width:370px) and (max-width:768px){
+    
+  .Footer{height: 500px;}
+  .Info{flex-direction: column;}
+    
+  .Contact__section{width: 100%;height: 300px;}
+    #Contact{width: 50%;margin-left:30% ;}
+      .Contact__mail{display: flex;flex-direction: column;}
+        #Prof{text-align: center;}
+          .mail__prof p{text-align: center;}
+        #Student{text-align: center;}
+          .mail__student p{text-align: center;}
     #Links{margin-left: 2%;}
-    .Links a{width: 40%;text-align: center;}
+      .Links{display: flex;flex-direction: column;width:100%;height:200px;align-items:center;}
+        .Links a{width: 40%;text-align: center;}
 }

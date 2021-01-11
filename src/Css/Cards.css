@@ -1,33 +1,13 @@
-.Container{
-    border-radius: 5%;;
-    width: 30%;height: 500px;
-    background-color: white;
-    margin: 5%;
-    transition:1s ;
-}
+.Container{background-color: white;border-radius: 5%;width: 30%;height: 500px;margin: 5%;transition:1s;}
+.Container:hover{transform: scale(1.1);}
+    .Photo{border-radius: 50%;display: flex;justify-content: center;margin:5%;overflow: hidden;}
+        .Photo img{width: 50%;height:110px;margin-bottom: 2%;border-radius: 50%;}
 
+    
+    .Named{text-align: center;font-family: 'Roboto slab', serif; margin:5%;}
+    .Description{color:black;background-color: white;font-family: 'Roboto slab', serif;text-align: left;margin: 10%;}
+/********** Smartphone w MaxWidth => 368px (Huawei) **********/
+@media (min-width:300px) and (max-width:368px){.Container{width: 70%;position: relative;margin-bottom: 5%;}}
 
-.Container:hover{
-    transform: scale(1.1);
-}
-
-
-.Photo{
-    display: flex;justify-content: center;margin:5%;
-    border-radius: 50%;overflow: hidden;
-}
-.Photo img{width: 50%;height:110px;margin-bottom: 2%;border-radius: 50%;}
-
-.Named{text-align: center;font-family: 'Roboto slab', serif; margin:5%;}
-
-.Description{color:black;background-color: white;font-family: 'Roboto slab', serif;text-align: left;margin: 10%;}
-
-
-@media (max-width:480px){
-
-    .Container{
-        position: relative;
-        width: 70%;
-        margin-bottom: 5%;
-    }
-}
+/********** Smartphone w MaxWidth => 768px (Iphone) **********/
+@media (min-width:370px) and (max-width:768px){.Container{width: 60%;position: relative;margin-bottom: 5%;}}

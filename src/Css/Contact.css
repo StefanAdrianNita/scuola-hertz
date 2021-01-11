@@ -1,63 +1,70 @@
 .Contact{width: 100%;font-family: 'Roboto slab',serif;;}
-
-.Header__Contact{
-    width:100%;height: 600px;
-}
-
-.Header-Contact__post h1{
-    color: white;text-shadow: 2px 2px #67BD93;
-    position: absolute;
-    left: 35%;top: 30%;font-size: 100px;
-    animation: fadeIn 3s;
-}
+    .Header__Contact{width:100%;height: 600px;}
+        .Header-Contact__post h1{color: white;text-shadow: 2px 2px #67BD93;position: absolute;left: 35%;top: 30%;font-size: 100px;animation: fadeIn 3s;}
+        .Header__Contact img{width: 100%;height: 600px;}
 
 
-.Header__Contact img{width: 100%;height: 600px;}
-
-
-.Module__container{
-    height:500px;
-    display: flex;
-
-}
-
-.Contact__container{width: 30%;}
-
-.contact{background-color: #67BD93;border-radius: 2%;text-shadow: 1px 1px white;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-    margin: 25px 15px;height: 450px;display: flex;justify-content: center;align-items: center;
-}
-
-.contact li{
-    list-style: none;font-size: 20px;
-}
-
-
-.Mail__form{width: 70%;height: 500px;margin-right: 15px;}
-
-.Map__container{display: flex;height: 400px;width: 100%;text-shadow: 1px 1px white;}
-.Map__container h1{position: absolute; margin-top: -12%;margin-left: -25%;}
-.Map__post{width:50%;height: 400px;display: flex;}
-
-.post{
-    background-color: #67BD93;border-radius: 5%;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-    width: 100%;display: flex;justify-content: center;align-items: center;margin: 5px 5px;
-}
-
-.post p{
-    
-    font-family: 'Roboto slab',serif;
-    font-size: 20px;
-    text-align: justify;
-    margin: 15px 15px;
-}
-
-.Map{
-    width: 50%;    margin-right: 10px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-
-}
+    .Module__container{height:500px;display: flex;}
+        .Contact__container{width: 30%;}
+            .contact{background-color: #67BD93;border-radius: 2%;text-shadow: 1px 1px white;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);margin: 25px 15px;height: 450px;display: flex;justify-content: center;align-items: center;}
+                .contact li{list-style: none;font-size: 20px;}
+        
+        .Mail__form{width: 70%;height: 500px;margin-right: 15px;}
+        
+        .Map__container{display: flex;height: 400px;width: 100%;text-shadow: 1px 1px white;}
+            .Map__post{background-color: #67BD93;border-radius: 2%;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);width:50%;height: 200px;margin: 5px;display: flex;flex-direction: column;position: relative;top: 25%;}
+                .Map__post h1{text-align: center;}
+                .post{width: 100%;}
+                    .post p{font-family: 'Roboto slab',serif;font-size: 20px;text-align: justify;margin: 15px 15px;}
+            .Map{width: 50%;margin-right: 10px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);}
 
 @keyframes fadeIn{
     from{opacity: 0;}
     to{opacity: 1;}
+}
+
+/********** Smartphone w MaxWidth => 368px (Huawei) **********/
+@media (min-width:300px) and (max-width:368px){
+    .Header__Contact{height: 400px;}
+
+    .Header-Contact__post h1{left: 0%;top: 20%;font-size: 60px;}
+    .Header__Contact img{height: 400px;}
+
+    .Module__container{flex-direction: column;height: 1000px;}
+
+    .Contact__container{width: 100%;}
+        .contact{margin: 10px;height: 300px;}
+        .contact ul{width: 100%;height: 300px;position: relative;top: 3%;}
+        .contact h1{position: relative;left: 13%;}
+        .contact li{position: relative;left: -10%;top: 10%;font-size: 15px;}
+
+    .Mail__form{width: 100%;}
+
+    .Map__container{flex-direction:  column;height: 900px;}
+        .Map__post{width: 100%;height: 400px;margin:0;top: 0%;}
+        .Map{width: 100%;margin-right: 0%;}
+}
+
+/********** Smartphone w MaxWidth => 768px (Iphone) **********/
+@media (min-width:370px) and (max-width:768px){
+    .Header__Contact{height: 400px;}
+
+    .Header-Contact__post h1{left: 5%;top: 25%;font-size: 65px;}
+    .Header__Contact img{height: 400px;}
+
+    .Module__container{flex-direction: column;height: 1000px;}
+    
+    .Contact__container{width: 100%;}
+        .contact{margin: 15px;height: 300px;}
+        .contact ul{width: 100%;height: 300px;position: relative;top: 5%;}
+        .contact h1{position: relative;left: 15%;}
+        .contact li{position: relative;left: 0%;top: 10%;font-size: 15px;}
+
+    .Mail__form{width: 100%;}
+
+    .Map__container{flex-direction:  column;height: 900px;}
+        .Map__post{width: 100%;height: 300px;margin:0px;top: 0%;}
+        .Map__post h1{font-size: 35px;}
+        .Map{width: 100%;margin-right: 0%;}
 }
 

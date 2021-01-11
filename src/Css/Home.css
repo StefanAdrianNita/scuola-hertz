@@ -1,45 +1,17 @@
-.Home{
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    z-index: 0;
-}
-
-.Header__home{
-    display: flex;
-    width:100%;height: 700px;
-}
-
-.Header__colored{background-color: #67BD93;width: 50%; height: 700px;}
-.Header__colored img{width: 100%;height: 700px;}
-
-.Header__post{position: relative; width: 80%; height: 200px;left: 10%;top: 30%;}
-
-
-.Header__post h1{color: black; font-family: 'Roboto Slab', serif;font-size: 70px;animation: fadeIn 3s ;}
-.Header__post p{color: black;font-family: 'Roboto Slab', serif ; font-size: 20px;margin:0%; animation: fadeIn 3s ;}
-.post__button{position: relative;left: 65%;width: 20%;height:50px; transition: 0.1s linear;}
-
-.post__button:hover{
-    transform:translateY(-5%);
-}
-.Header__photo{width: 50%;height: 700px;}
-.Header__photo img{width: 100%;height:700px;}
-
-
-.Cards{
-    margin-top: 5%;
-    background-color: #67BD93;
-    width: 100%;
-}
-
-.Cards__card{
-    display: flex;
-}
-
-
-
+.Home{background-color: white;width: 100%;z-index: 0;}
+    .Header__home{display: flex;width:100%;height: 700px;}
+        .Header__colored{background-color: #67BD93;width: 50%; height: 700px;}
+            .Header__colored img{width: 100%;height: 700px;}
+            .Header__post{position: relative; width: 80%; height: 200px;left: 10%;top: 30%;}
+                .Header__post h1{color: black; font-family: 'Roboto Slab', serif;font-size: 70px;animation: fadeIn 3s ;}
+                .Header__post p{color: black;font-family: 'Roboto Slab', serif ; font-size: 20px;margin:0%; animation: fadeIn 3s ;}
+            .post__button{position: relative;left: 65%;width: 20%;height:50px; transition: 0.1s linear;}
+            .post__button:hover{transform:translateY(-5%);}
+        .Header__photo{width: 50%;height: 700px;}
+            .Header__photo img{width: 100%;height:700px;}
+        
+        .Cards{background-color: #67BD93;width: 100%;margin-top: 5%;}
+            .Cards__card{display: flex;}
 
 @keyframes fadeIn{
     from{opacity: 0;}
@@ -47,37 +19,37 @@
 }
 
 
-/****Smartphone*****/
-@media (max-width:768px){
+/********** Smartphone w MaxWidth => 368px (Huawei) **********/
+@media (min-width:300px) and (max-width:368px){
     .Home{width: 100%;}
     
     .Header__home{top: 0%;width: 100%;height: 700px;;flex-direction: column;}
-
-    .Header__post{text-align: center;top: 15%;}
-
-    .Header__post h1{text-shadow: 1px 1px white;font-size: 45px;margin-bottom: 5%;margin-top: 5%;max-width: 100%;}
-    .Header__post p{text-shadow: 1px 1px white;position: relative;font-size: 15px;}
-    
-    
-    .Header__colored{width: 100%;height: 350px;}
-    .Header__colored img{height: 350px;}
-    
-    .Header__photo{width: 100%;height: 350px;}
-    .Header__photo img{height: 350px;}
-
-    .post__button{left: 25%;width: 50%;top: 0%;}
-    
+        .Header__post{text-align: center;top: 15%;}
+            .Header__post h1{text-shadow: 1px 1px white;font-size: 45px;margin-bottom: 5%;margin-top: 5%;max-width: 100%;}
+            .Header__post p{text-shadow: 1px 1px white;position: relative;font-size: 15px;}
+        .Header__colored{width: 100%;height: 350px;}
+            .Header__colored img{height: 350px;}
+        .post__button{left: 25%;width: 50%;top: 0%;}
+        .Header__photo{width: 100%;height: 350px;}
+            .Header__photo img{height: 350px;}
     .Cards{width: 100%;}
-
-    .Cards__card{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-        width: 100%;
-    }
-
-
+        .Cards__card{width: 100%;;display: flex;flex-direction: column;align-items: center;margin-top: 5%;}
 }
 
+    /********** Smartphone w MaxWidth => 768px (Iphone) **********/
+
+    @media (min-width:370px) and (max-width:768px){
+    .Home{width: 100%;}
+    
+    .Header__home{top: 0%;width: 100%;height: 700px;;flex-direction: column;}
+        .Header__post{text-align: center;top: 15%;}
+            .Header__post h1{text-shadow: 1px 1px white;font-size: 45px;margin-bottom: 10%;margin-top: 10%;max-width: 100%;}
+            .Header__post p{text-shadow: 1px 1px white;position: relative;font-size: 15px;}
+        .Header__colored{width: 100%;height: 350px;}
+            .Header__colored img{height: 350px;}
+        .post__button{left: 30%;width: 45%;top: 10%;}
+        .Header__photo{width: 100%;height: 350px;}
+            .Header__photo img{height: 350px;}
+    .Cards{width: 100%;}
+        .Cards__card{width: 100%;display: flex;flex-direction: column;align-items: center;margin-top: 5%;}
+}

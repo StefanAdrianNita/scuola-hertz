@@ -1,6 +1,12 @@
 iframe{
-    width: 50%;
     height: 400px;
     width: 100%;
     border: none;
 }
+
+/********** Smartphone w MaxWidth => 368px (Huawei) **********/
+@media (min-width:300px) and (max-width:368px){iframe{height: 500px;}}
+
+/********** Smartphone w MaxWidth => 768px (Iphone) **********/
+
+@media (min-width:370px) and (max-width:768px){iframe{height: 600px;}}

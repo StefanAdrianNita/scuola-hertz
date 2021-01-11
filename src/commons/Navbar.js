@@ -9,8 +9,6 @@ function onClickMenu(){
         document.getElementById("menu").style.display ="none";
     else
         document.getElementById("menu").style.display ="block";
-
-
 }
 
 
@@ -57,10 +55,8 @@ function Navbar (){
                         </Link>
                     </ul>
                 </div>
-                
-            
             </div>
-                );
+        );
 }
 
 export default Navbar;
