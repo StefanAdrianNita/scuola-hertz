@@ -27,7 +27,7 @@
 @media (min-width:300px) and (max-width:368px){
     .Header__Contact{height: 400px;}
 
-    .Header-Contact__post h1{left: 0%;top: 20%;font-size: 60px;}
+    .Header-Contact__post h1{border:1px solid red;left: 0%;top: 20%;font-size: 60px;}
     .Header__Contact img{height: 400px;}
 
     .Module__container{flex-direction: column;height: 1000px;}
@@ -35,7 +35,7 @@
     .Contact__container{width: 100%;}
         .contact{margin: 10px;height: 300px;}
         .contact ul{width: 100%;height: 300px;position: relative;top: 3%;}
-        .contact h1{position: relative;left: 13%;}
+        .contact h1{width: 60%;position: relative;left: 13%;}
         .contact li{position: relative;left: -10%;top: 10%;font-size: 15px;}
 
     .Mail__form{width: 100%;}
@@ -49,7 +49,7 @@
 @media (min-width:370px) and (max-width:768px){
     .Header__Contact{height: 400px;}
 
-    .Header-Contact__post h1{left: 5%;top: 25%;font-size: 65px;}
+    .Header-Contact__post h1{;left: 5%;top: 25%;font-size: 65px;}
     .Header__Contact img{height: 400px;}
 
     .Module__container{flex-direction: column;height: 1000px;}
@@ -57,7 +57,7 @@
     .Contact__container{width: 100%;}
         .contact{margin: 15px;height: 300px;}
         .contact ul{width: 100%;height: 300px;position: relative;top: 5%;}
-        .contact h1{position: relative;left: 15%;}
+        .contact h1{width: 60%;position: relative;left: 15%;}
         .contact li{position: relative;left: 0%;top: 10%;font-size: 15px;}
 
     .Mail__form{width: 100%;}
