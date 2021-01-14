@@ -9,7 +9,7 @@ function VirtualTour(){
     return(
        <div className="VirtualTour">
            <div className="Tour">
-           <iframe src="https://stefanadriannita.github.io/hertz-virtual-tour/"></iframe>
+                <iframe src="https://stefanadriannita.github.io/hertz-virtual-tour/"></iframe>
             </div>
         </div>
 );

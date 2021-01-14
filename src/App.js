@@ -20,7 +20,6 @@ function App(){
                     <Route exact path="/VirtualTour" component={VirtualTour} />
                     <Route exact path="/Teacher" component={Teacher} />
                 </Switch>
-                
             </div>
             <Footer/>           
         </Router>
