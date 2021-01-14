@@ -1,34 +1,27 @@
+/***** React library *****/
 import React, {useEffect}from 'react';
 import {Link} from 'react-router-dom';
 
+/***** Style *****/
 import "../Css/Home.css";
 
-
-/***************Common Media****************/
+/*************** Media ****************/
 import IMG1Slider from '../media/(Slider)1.jpg';
 import IMG2Slider from '../media/(Slider)2.jpg';
-
-/***************Header ***************/
 import HomeBG from '../media/HomeBG.jpg';
-/*************************************/
-
-/***************Cards****************/
 import Avatar from '../media/AvatarCard.png';
-/**********************************/
+
+/***** Components *****/
 import Button from '../commons/Button';
 import Cards from '../commons/Cards';
 import Slider from '../commons/Slider';
-
-
-
+    
+const postTitle="Hertz Virtual Tour";
+const post="Prova l'esperienza dell'open day da casa tua!"
+const postLink="Virtual Tour";
+const aboutDevincenzi="Professore di Informatica ed esperto Musicale, insegnante da .. anni nell'istituto H.Hertz"
+    
 function Home(){
-
-    const postTitle="Hertz Virtual Tour";
-    const post="Prova l'esperienza dell'open day da casa tua!"
-    const postLink="Virtual Tour";
-
-
-    const aboutDevincenzi="Professore di Informatica ed esperto Musicale, insegnante da .. anni nell'istituto H.Hertz"
     return(
         <div className="Home">
             <div className="Header__home">
@@ -61,5 +54,4 @@ function Home(){
         </div>
     );
 }
-
 export default Home;

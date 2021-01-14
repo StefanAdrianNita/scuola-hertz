@@ -1,13 +1,17 @@
+/***** React library *****/
 import React from 'react';
-import MailForm from '../commons/MailForm.js';
+
+/***** Style *****/
+import "../Css/VirtualTour.css";
 
 
 function VirtualTour(){
     return(
        <div className="VirtualTour">
-       
-     </div>
-    );
+           <div className="Tour">
+           <iframe src="https://stefanadriannita.github.io/hertz-virtual-tour/"></iframe>
+            </div>
+        </div>
+);
 }
-
 export default VirtualTour;

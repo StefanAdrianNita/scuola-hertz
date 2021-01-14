@@ -1,4 +1,7 @@
+/***** React library *****/
 import React from 'react';
+
+/***** Style *****/
 import "../Css/Slider.css";
 
 function Slider(props){
@@ -15,5 +18,4 @@ function Slider(props){
         </div> 
     );
 }
-
 export default Slider;

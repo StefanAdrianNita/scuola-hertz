@@ -1,16 +1,11 @@
 
 .About{font-family: 'Roboto Slab', serif; width: 100%;}
-.Header__About{width: 100%;height: 600px;;}
+    .Header__About{width: 100%;height: 600px;;}
+        .Header__Image{width: 100%;height: 600px;}
+            .Header__Image img{width: 100%;height: 600px;}
 
-.Header__Image{width: 100%;height: 600px;}
-
-.Header__Image img{width: 100%;height: 600px;}
-
-.Image__content{
-    position: absolute;;
-    top: 30%;left: 35%;
-    color: white;
-    font-family: 'Roboto Slab', serif;font-size: 100px;
+.Image__content{position: absolute;top: 30%;left: 35%;
+    color: white;font-size: 100px;
     text-shadow: 2px 2px #67BD93;
     animation: fadeIn 3s
 }

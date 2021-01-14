@@ -1,8 +1,8 @@
+/***** React library *****/
 import React,  {useClick}from 'react';
-import {Link} from 'react-router-dom';
+
+/***** Style *****/
 import '../Css/Button.css';
-
-
 
 function Button(props){
     return(
@@ -11,8 +11,6 @@ function Button(props){
                 <h6 className="Button__text">{props.text}</h6>
             </button>
             </div>
-
     );
 }
-
 export default Button;

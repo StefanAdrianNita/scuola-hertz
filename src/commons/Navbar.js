@@ -1,7 +1,11 @@
+/***** React library *****/
 import React from 'react';
-import "../Css/Navbar.css";
-import logo from '../media/logo.png';
 import {Link} from 'react-router-dom';
+/***** Style *****/
+import "../Css/Navbar.css";
+
+/***** Media *****/
+import logo from '../media/logo.png';
 
 
 function onClickMenu(){
@@ -10,7 +14,6 @@ function onClickMenu(){
     else
         document.getElementById("menu").style.display ="block";
 }
-
 
 function Navbar (){
         return(
@@ -56,7 +59,6 @@ function Navbar (){
                     </ul>
                 </div>
             </div>
-        );
+    );
 }
-
 export default Navbar;

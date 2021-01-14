@@ -1,20 +1,22 @@
+/***** React library *****/
 import React from 'react';
+
+/***** Style *****/
 import "../Css/Contact.css";
 
 /************ Media *************/
 import Header from '../media/(Contact)Header.jpg'
 
 
-/************ Common ****************/
+/************ Components ****************/
 import Map from '../commons/Map'
 import MailForm from '../commons/MailForm'
 
 const MapInfo="Il bacino di utenza dell’Istituto è assai ampio e composito, grazie anche ai buoni collegamenti tramite mezzi pubblici, linea A e linea C della metropolitana e della stazione dei pullman extraurbani."
 const mailDeVincenzi="francescodevincenzi@iisenzoferrari.it";
-    const mailDeLuca="marcodeluca@iisenzoferrari.it";
-    const mailMarongiu="manuel.marongiu.s@iisenzoferrari.it";
-    const mailNita="stefanadrian.nita.s@iisenzoferrari.it";
-
+const mailDeLuca="marcodeluca@iisenzoferrari.it";
+const mailMarongiu="manuel.marongiu.s@iisenzoferrari.it";
+const mailNita="stefanadrian.nita.s@iisenzoferrari.it";
 
 function Contact(){
     return(
@@ -62,5 +64,4 @@ function Contact(){
         </div>
     );
 }
-
 export default Contact;

@@ -1,6 +1,10 @@
+/***** React library *****/
 import React from 'react';
+
+/***** Style *****/
 import "../Css/MailForm.css";
 
+/***** Media *****/
 import MailIMG from '../media/MailIMG.png';
 
 
@@ -37,5 +41,4 @@ function MailForm(){
         </div>
     );
 }
-
 export default MailForm;

@@ -1,5 +1,9 @@
+/***** React library *****/
 import React from 'react';
+
+/***** Style *****/
 import "../Css/Cards.css";
+
 function Cards(props){
     return(
         <div className="Container">
@@ -14,10 +18,6 @@ function Cards(props){
                 <p>{props.text}</p>
             </div>
         </div>
-
     );
-
 }
-
-
 export default Cards;

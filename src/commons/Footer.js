@@ -1,12 +1,16 @@
+/***** React library *****/
 import React from 'react';
 import {Link} from 'react-router-dom';
-import "../Css/Footer.css";
-function Footer(){
 
-    const mailDeVincenzi="francescodevincenzi@iisenzoferrari.it";
-    const mailDeLuca="marcodeluca@iisenzoferrari.it";
-    const mailMarongiu="manuel.marongiu.s@iisenzoferrari.it";
-    const mailNita="stefanadrian.nita.s@iisenzoferrari.it";
+/***** Style *****/
+import "../Css/Footer.css";
+
+const mailDeVincenzi="francescodevincenzi@iisenzoferrari.it";
+const mailDeLuca="marcodeluca@iisenzoferrari.it";
+const mailMarongiu="manuel.marongiu.s@iisenzoferrari.it";
+const mailNita="stefanadrian.nita.s@iisenzoferrari.it";
+
+function Footer(){
     return(
         <footer className="Footer">
             <div className="Info">
