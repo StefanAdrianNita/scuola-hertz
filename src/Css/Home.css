@@ -10,7 +10,7 @@
         .Header__photo{width: 50%;height: 700px;}
             .Header__photo img{width: 100%;height:700px;}
         
-        .Cards{background-color: #67BD93;width: 100%;margin-top: 5%;}
+        .Cards{background-color: #67BD93;width: 100%;}
             .Cards__card{display: flex;}
 
 @keyframes fadeIn{

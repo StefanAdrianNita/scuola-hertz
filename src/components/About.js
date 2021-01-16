@@ -51,7 +51,7 @@ function About(){
             </div>
             <br></br>
             <div className="Teacher__section">
-                <div className="Teacher">
+                <div className="Teacher__post">
                     <h1>I nostri Insegnanti</h1>
                     <p>{TeacherInfo}</p>
                     <div className="teacher-btn">

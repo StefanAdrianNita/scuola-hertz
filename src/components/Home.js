@@ -19,7 +19,8 @@ import Slider from '../commons/Slider';
 const postTitle="Hertz Virtual Tour";
 const post="Prova l'esperienza dell'open day da casa tua!"
 const postLink="Virtual Tour";
-const aboutDevincenzi="Professore di Informatica ed esperto Musicale, insegnante da .. anni nell'istituto H.Hertz"
+const aboutMarongiu="Nato il 04/12/2000, studente di informatica all'Hertz dal 2015";
+const aboutNita="Nato il 21/06/2002 studente di informatica all'Hertz dal 2016";
     
 function Home(){
     return(
@@ -41,14 +42,12 @@ function Home(){
                 </div>
             </div>
             <br></br>
-            <Slider img1={IMG1Slider} img2={IMG2Slider}></Slider>
+            <Slider></Slider>
             <br></br>
             <div className="Cards">
                 <div className="Cards__card">
-                    <Cards photo={Avatar} name="Francesco" surname="Devincenzi" text={aboutDevincenzi}></Cards>
-                    <Cards photo={Avatar} name="Marco" surname="DeLuca"></Cards>
-                    <Cards photo={Avatar} name="Manuel" surname="Marongiu" text=""></Cards>
-                    <Cards photo={Avatar} name="Adrian" surname ="Nita" text=""></Cards>
+                    <Cards photo={Avatar} name="Manuel" surname="Marongiu" text={aboutMarongiu}></Cards>
+                    <Cards photo={Avatar} name="Adrian" surname ="Nita" text={aboutNita}></Cards>
                 </div>
             </div>
         </div>
