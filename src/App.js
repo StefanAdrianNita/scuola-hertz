@@ -7,7 +7,6 @@ import Home from './components/Home';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import VirtualTour from "./components/VirtualTour";
-import Teacher from "./components/Teacher";
 function App(){
     return( 
         <Router>
@@ -18,7 +17,7 @@ function App(){
                     <Route exact path="/About" component={About} />
                     <Route exact path="/Contact" component={Contact} />
                     <Route exact path="/VirtualTour" component={VirtualTour} />
-                    <Route exact path="/Teacher" component={Teacher} />
+                    
                 </Switch>
             </div>
             <Footer/>           

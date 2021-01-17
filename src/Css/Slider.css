@@ -1,5 +1,4 @@
 .slides-images{
-    border: 1px solid red;
     height: 400px;
     margin: 0% 10%;
     overflow: hidden;
@@ -11,7 +10,6 @@
 }
 
 .btn-left{
-    border: 1px solid red;
     background: none;
     position: absolute;
     top: 115%;left:11%;
@@ -22,7 +20,6 @@
 }
 
 .btn-right{
-    border: 1px solid red;
     background: none;
     position: absolute;
     left: 85%;top: 115%;
