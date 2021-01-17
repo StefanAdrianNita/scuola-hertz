@@ -10,7 +10,7 @@ import img2 from "../media/(Slider)2.jpg";
 import Arrow_Right from "../media/Slider_Arrow_Right.png";
 import Arrow_Left from "../media/Slider_Arrow_Left.png";
 
-function onCLick(){
+function slide(){
 
     
         
@@ -22,7 +22,8 @@ function Slider(props){
             <div className="slides-images">
                 <button className="btn-left" id="button-left" onClick={onCLick}><img src={Arrow_Left}></img></button>
                 <button className="btn-right" id="button-right" onClick={onCLick}><img src={Arrow_Right}></img></button>
-                <img src={img1} id="image"></img>
+                <img src={img1}></img>
+                <img src={img2}></img>
             </div>
                 
         </div>
