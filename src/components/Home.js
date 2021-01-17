@@ -10,7 +10,7 @@ import IMG1Slider from '../media/(Slider)1.jpg';
 import IMG2Slider from '../media/(Slider)2.jpg';
 import HomeBG from '../media/HomeBG.jpg';
 import Avatar from '../media/AvatarCard.png';
-
+import Marongiu from '../media/MarongiuIMG.jpeg';
 /***** Components *****/
 import Button from '../commons/Button';
 import Cards from '../commons/Cards';
@@ -46,7 +46,7 @@ function Home(){
             <br></br>
             <div className="Cards">
                 <div className="Cards__card">
-                    <Cards photo={Avatar} name="Manuel" surname="Marongiu" text={aboutMarongiu}></Cards>
+                    <Cards photo={Marongiu} name="Manuel" surname="Marongiu" text={aboutMarongiu}></Cards>
                     <Cards photo={Avatar} name="Adrian" surname ="Nita" text={aboutNita}></Cards>
                 </div>
             </div>

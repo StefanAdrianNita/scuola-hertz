@@ -10,7 +10,7 @@ import img2 from "../media/(Slider)2.jpg";
 import Arrow_Right from "../media/Slider_Arrow_Right.png";
 import Arrow_Left from "../media/Slider_Arrow_Left.png";
 
-function slide(){
+function oncCLick(){
 
     
         
