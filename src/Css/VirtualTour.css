@@ -3,9 +3,9 @@
 
 
 @media (min-width:300px) and (max-width:368px){
-    .Tour iframe{margin-top: 10%;height: 500px;}
+    .Tour iframe{margin-top: 15%;height: 500px;}
 }
 
 @media (min-width:370px) and (max-width:768px){
-    .Tour iframe{margin-top: 10%;height: 500px;}
+    .Tour iframe{margin-top: 15%;height: 500px;}
 }
