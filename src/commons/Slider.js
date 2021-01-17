@@ -20,8 +20,8 @@ function Slider(props){
     return(
         <div className="Slider">
             <div className="slides-images">
-                <button className="btn-left" id="button-left" onClick={onCLick}><img src={Arrow_Left}></img></button>
-                <button className="btn-right" id="button-right" onClick={onCLick}><img src={Arrow_Right}></img></button>
+                <button className="btn-left" id="button-left" ><img src={Arrow_Left}></img></button>
+                <button className="btn-right" id="button-right" ><img src={Arrow_Right}></img></button>
                 <img src={img1}></img>
                 <img src={img2}></img>
             </div>

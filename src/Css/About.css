@@ -19,9 +19,7 @@
         .Teacher__post{background-color: #67BD93;height: 250px;margin: 25px 20px; box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);}
             .Teacher__post h1{position: relative;top: 5%;text-align: center;text-shadow: 1px 1px white;}
             .Teacher__post p{text-align: justify;text-shadow: 1px 1px white;margin: 30px 100px;font-size: 20px;}
-            .teacher-btn{width: 10%;position: relative; top: -15%;left: 40%; transition: 0.1s linear;}
-            .teacher-btn:hover{transform: translateY(-10%);}
-
+           
 @keyframes fadeIn{
     from{opacity: 0;}
     to{opacity: 1;}
