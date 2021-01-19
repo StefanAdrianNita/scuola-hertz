@@ -38,7 +38,7 @@
 }
 
 /********** Smartphone w MaxWidth => 768px (Iphone) **********/
-@media (min-width:370px) and (max-width:800px){
+@media (min-width:370px) and (max-width:812px){
     
   .Footer{height: 500px;}
   .Info{flex-direction: column;}

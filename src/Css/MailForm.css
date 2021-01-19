@@ -24,7 +24,7 @@
 }
 
 /********** Smartphone w MaxWidth => 768px (Iphone) **********/
-@media (min-width:370px) and (max-width:800){
+@media (min-width:370px) and (max-width:812px){
     .MailForm{height: 600px;}
     .Mail__Container{flex-direction: column-reverse;height: 600px;
     }
