@@ -6,6 +6,6 @@
     .Tour iframe{margin-top: 15%;height: 500px;}
 }
 
-@media (min-width:370px) and (max-width:768px){
+@media (min-width:370px) and (max-width:800px){
     .Tour iframe{margin-top: 15%;height: 500px;}
 }

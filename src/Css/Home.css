@@ -5,8 +5,12 @@
             .Header__post{position: relative; width: 80%; height: 200px;left: 10%;top: 30%;}
                 .Header__post h1{color: black; font-family: 'Roboto Slab', serif;font-size: 70px;animation: fadeIn 3s ;}
                 .Header__post p{color: black;font-family: 'Roboto Slab', serif ; font-size: 20px;margin:0%; animation: fadeIn 3s ;}
-            .post__button{position: relative;left: 65%;width: 20%;height:50px; transition: 0.1s linear;}
-            .post__button:hover{transform:translateY(-5%);}
+                .post__button{position: relative;left: 65%;width: 20%;height:50px; transition: 0.1s linear;}
+                .post__button:hover{transform:translateY(-5%);}
+                .counter{width: 20%;position: absolute;left: 80%;top: 150%;text-align: center;text-shadow: 1px 1px white; animation: fadeIn 8s;transition: 0.1s linear;}
+                    .counter h1{font-size: 20px;}
+                    .counter p{font-size: 40px;}
+                .counter:hover{transform: translateY(-5%);}
         .Header__photo{width: 50%;height: 700px;}
             .Header__photo img{width: 100%;height:700px;}
         
@@ -38,7 +42,7 @@
 
     /********** Smartphone w MaxWidth => 768px (Iphone) **********/
 
-    @media (min-width:370px) and (max-width:768px){
+    @media (min-width:370px) and (max-width:800px){
     .Home{width: 100%;}
     
     .Header__home{top: 0%;width: 100%;height: 700px;;flex-direction: column;}

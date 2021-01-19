@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import VirtualTour from "./components/VirtualTour";
 function App(){
     return( 
+        
         <Router>
             <div className="Home">
                 <Navbar />

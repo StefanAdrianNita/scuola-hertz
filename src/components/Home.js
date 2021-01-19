@@ -1,7 +1,6 @@
 /***** React library *****/
 import React, {useEffect}from 'react';
 import {Link} from 'react-router-dom';
-
 /***** Style *****/
 import "../Css/Home.css";
 
@@ -22,9 +21,19 @@ const postLink="Virtual Tour";
 const aboutMarongiu="Nato il 04/12/2000, studente di informatica all'Hertz dal 2015";
 const aboutNita="Nato il 21/06/2002 studente di informatica all'Hertz dal 2016";
     
+
+
+function updateVisitCount(){
+    fetch('https://api.countapi.xyz/update/Virtual_Tour/virtualtour/?amount=1')
+    .then(res => res.json())
+    .then(res => {
+    document.getElementById("count").innerHTML = res.value;
+});
+}
+
 function Home(){
     return(
-        <div className="Home">
+        <div className="Home" onLoad={updateVisitCount()}>
             <div className="Header__home">
                 <div className="Header__colored">
                     <div className="Header__post">
@@ -34,6 +43,10 @@ function Home(){
                         <Link to="/VirtualTour">
                             <Button text={postLink} ></Button>
                         </Link>
+                       </div>
+                       <div className="counter" >
+                            <h1>Visitor</h1>
+                            <p id="count">0</p>
                         </div>
                     </div>
                 </div>
