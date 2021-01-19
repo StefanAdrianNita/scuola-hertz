@@ -47,7 +47,7 @@
 
         .Teacher__section{height: 515px;}
             .Teacher__post{height: 475px;margin: 10px 10px;}
-                .Teacher__post p{margin: 50px 20px;font-size: 15px;}
+                .Teacher__post  p{margin: 50px 20px;font-size: 15px;}
                 .teacher-btn{width: 50%;top: -10%;}
 }
 

@@ -35,7 +35,7 @@
                     .counter h1{font-size: 20px;}
         .Header__colored{width: 100%;height: 350px;}
             .Header__colored img{height: 350px;}
-        .post__button{left: 25%;width: 50%;top: 0%;}
+        .post__button{left: 0%;width: 50%;top: 15%;}
         .Header__photo{width: 100%;height: 350px;}
             .Header__photo img{height: 350px;}
     .Cards{width: 100%;}
