@@ -12,7 +12,7 @@
 .btn-left{
     background: none;
     position: absolute;
-    top: 115%;left:11%;
+    top: 115%;left:11%;border: none;opacity: 0.8;
 }
 
 .btn-left img{
@@ -23,6 +23,7 @@
     background: none;
     position: absolute;
     left: 85%;top: 115%;
+    border: none;
     
 }
 .btn-right img{
