@@ -6,4 +6,4 @@ iframe{height: 400px;width: 100%;border: none;
 
 /********** Smartphone w MaxWidth => 768px (Iphone) **********/
 
-@media (min-width:370px) and (max-width:812px){iframe{height: 600px;}}
+@media (min-width:370px) and (max-width:768px){iframe{height: 600px;}}

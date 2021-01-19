@@ -46,7 +46,7 @@
 }
 
 /********** Smartphone w MaxWidth => 768px (Iphone) **********/
-@media (min-width:370px) and (max-width:812px){
+@media (min-width:370px) and (max-width:768px){
     .Header__Contact{height: 400px;}
 
     .Header-Contact__post h1{;left: 5%;top: 25%;font-size: 65px;}

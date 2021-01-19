@@ -10,4 +10,4 @@
 @media (min-width:300px) and (max-width:368px){.Container{width: 70%;height:450px;;position: relative;margin-bottom: 5%;}}
 
 /********** Smartphone w MaxWidth => 768px (Iphone) **********/
-@media (min-width:370px) and (max-width:812px){.Container{width: 60%;height: 450px;;position: relative;margin-bottom: 5%;}}
+@media (min-width:370px) and (max-width:768px){.Container{width: 60%;height: 450px;;position: relative;margin-bottom: 5%;}}
