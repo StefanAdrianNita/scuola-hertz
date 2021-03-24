@@ -9,8 +9,3 @@ Siccome in questo periodo la pandemia non ci permette molto gli spostamenti, l'i
 ## Link
 
 https://scuola-hertz.herokuapp.com/
-
-## Partecipanti
-
-Stefan Adrian Nita
-Manuel Marongiu
